@@ -1,0 +1,43 @@
+
+body{
+    text-align: center;
+
+}
+
+.btncontainer{
+    display: flex; /* it means child elements becomes flexible and arrange in a row to cover up 
+    all horizontal space */
+    justify-content: center;
+
+}
+.btn{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.red{
+background-color: #EF3B36;
+}
+.blue{
+
+background-color:#1CB5E0 ;
+}
+.green{
+background-color: #34E89E;
+}
+.brown{
+background-color: #ffc371;
+}
+.gameflash{
+    background-color: white;
+}
+.userflash{
+    background-color: pink;
+}
+.scoreContainer{
+    display:flex;
+    justify-content: center ; /* ye gap use karo */
+    gap: 100px; /*  jitna gap chaihye utna gap */
+}
